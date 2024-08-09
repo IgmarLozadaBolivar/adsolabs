@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- META TAG PRINCIPALES -->
+    <title>AdsoLabs - El Mejor Laboratorio de Análisis y Desarrollo de Software</title>
+    <meta name="title" content="AdsoLabs - El Mejor Laboratorio de Análisis y Desarrollo de Software">
+    <meta name="description" content="Aprendizaje en línea para reforzar conocimientos sobre las tecnologías">
+    <meta name="author" content="BoDevWS">
+    <meta name="keywords" content="E-Learning, SENA, ADSO">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/ico.png" type="image/png">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- PRE-CARGA DE IMAGENES -->
+    <!-- <link rel="preload" as="image" href="./assets/images/Frame.png">
+    <link rel="preload" as="image" href="./assets/images/Frame 81.png">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+    <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+    <link rel="preload" as="image" href="/assets/images/skills.jpg">
+    <link rel="preload" as="image" href="/assets/images/scrum.jpg">
+    <link rel="preload" as="image" href="/assets/images/algorithms.jpg"> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body id="top">
+    <!-- ENCABEZADO -->
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <!-- <img src="./assets/logos/logo.png" alt="AdsoLabs logo"> -->
+                <h1 style="color: #5C69F5;">ADSOLABS</h1>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="wrapper">
+                    <a href="#" class="logo">
+                        <!-- <img src="./assets/logos/logo.png" width="40px" height="40px" alt="AdsoLabs logo"> -->
+                        <h1 style="color: #5C69F5;">ADSOLABS</h1>
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>Nosotros</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#explore" class="navbar-link" data-nav-link>Explorar</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" data-nav-link>Contacto</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header-actions">
+
+                <button class="header-action-btn" aria-label="toggle users" title="Users">
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="btn-badge">0</span>
+                </button>
+
+                <button class="header-action-btn" aria-label="bug" title="Bug">
+                    <ion-icon name="bug-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="btn-badge">0</span>
+                </button>
+
+                <a href="#" class="btn has-before">
+                    <span class="span">Saber más</span>
+
+                    <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <!-- SECCION INICIO -->
+    <main>
+        <article>
+            <section class="section hero has-bg-image" id="home" aria-label="home"
+                style="background-image: url('./assets/images/Frame\ 81.png')">
+                <div class="container">
+
+                    <div class="hero-content">
+                        <h1 class="h1 section-title">
+                            Explora, <span class="span">aprende</span> y sumérgete!
+                        </h1>
+
+                        <p class="hero-text">
+                            Domina, despega y amplía tus conocimientos en esta plataforma de aprendizaje para aprendices
+                            de ADSO.
+                        </p>
+
+                        <a href="https://forms.office.com/r/uqaxPB7GRt" class="btn has-before" target="_blank">
+                            <span class="span">Entrar</span>
+
+                            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                    <figure class="hero-banner">
+
+                        <div class="img-holder one" style="--width: 270; --height: 300;">
+                            <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner"
+                                class="img-cover">
+                        </div>
+
+                        <div class="img-holder two" style="--width: 240; --height: 370;">
+                            <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner"
+                                class="img-cover">
+                        </div>
+
+                        <img src="./assets/images/hero-shape-1.png" width="380" height="190" alt=""
+                            class="shape hero-shape-1">
+
+                        <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt=""
+                            class="shape hero-shape-2">
+
+                    </figure>
+
+                </div>
+            </section>
+
+            <!-- SECCION RUTAS -->
+
+            <section class="section category" aria-label="category" id="about-btn">
+                <div class="container">
+
+                    <p class="section-subtitle">Rutas</p>
+
+                    <h2 class="h2 section-title">
+                        Contenido de <span class="span">calidad</span> en línea.
+                    </h2>
+
+                    <p class="section-text">
+                        Explora nuestras rutas de aprendizaje.
+                    </p>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="category-card" style="--color: 42, 94%, 55%">
+
+                                <div class="card-icon">
+                                    <img src="./assets/icons/skills.webp" width="60" height="60" loading="lazy"
+                                        alt="Online Degree Programs" class="img">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Skills</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Fortalece y aumenta tus habilidades personales.
+                                </p>
+
+                                <span class="card-badge">3 Hubs</span>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 351, 83%, 61%">
+
+                                <div class="card-icon">
+                                    <img src="./assets/icons/design.webp" width="60" height="60" loading="lazy"
+                                        alt="Non-Degree Programs" class="img">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Frontend</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Crea, optimiza, desarrolla y diseña UI/UX.
+                                </p>
+
+                                <span class="card-badge">1 Hubs</span>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 229, 75%, 58%">
+
+                                <div class="card-icon">
+                                    <img src="./assets/icons/software.png" width="60" height="60" loading="lazy"
+                                        alt="Off-Campus Programs" class="img">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Backend</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Conviértase en un especialista en código.
+                                </p>
+
+                                <span class="card-badge">0 Hubs</span>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 170, 75%, 41%">
+
+                                <div class="card-icon">
+                                    <img src="./assets/icons/cloud.png" width="60" height="60" loading="lazy"
+                                        alt="Hybrid Distance Programs" class="img">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Others</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Gestiona bases de datos, servicios y arquitecturas.
+                                </p>
+
+                                <span class="card-badge">3 Hubs</span>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- SECCION NOSOTROS -->
+
+            <section class="section about" id="about" aria-label="about">
+                <div class="container">
+
+                    <figure class="about-banner">
+
+                        <div class="img-holder" style="--width: 520; --height: 370;">
+                            <img src="./assets/images/about.jpg" width="520" height="370" loading="lazy"
+                                alt="about banner" class="img-cover">
+                        </div>
+
+                        <img src="./assets/images/about-shape-1.png" width="360" height="420" loading="lazy" alt=""
+                            class="shape about-shape-1">
+
+                        <img src="./assets/images/about-shape-2.png" width="371" height="220" loading="lazy" alt=""
+                            class="shape about-shape-2">
+
+                        <img src="./assets/images/about-shape-3.png" width="722" height="528" loading="lazy" alt=""
+                            class="shape about-shape-3">
+
+                    </figure>
+
+                    <div class="about-content">
+
+                        <p class="section-subtitle">Sobre Nosotros</p>
+
+                        <h2 class="h2 section-title">
+                            Proporcionar toda la información y herramientas para <span class="span">mejorar</span> tus
+                            aptitudes
+                        </h2>
+
+                        <p class="section-text">
+                            Explore técnicas esenciales y herramientas avanzadas para mejorar significativamente el
+                            desarrollo de sus habilidades y su crecimiento personal.
+                        </p>
+
+                        <ul class="about-list">
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                                <span class="span">Completamente Gratis</span>
+                            </li>
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                                <span class="span">Instructores Expertos</span>
+                            </li>
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                                <span class="span">Aprendizaje Autónomo</span>
+                            </li>
+
+                        </ul>
+
+                        <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+                            class="shape about-shape-4">
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- SECCION EXPLORAR -->
+
+            <section class="section course" id="explore" aria-label="course">
+                <div class="container">
+
+                    <p class="section-subtitle">Módulos Populares</p>
+
+                    <h2 class="h2 section-title">Elija un bloque para comenzar</h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="./assets/images/2148825936.jpg" width="370" height="370" loading="lazy"
+                                        alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Eliana Daza Benjumea</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">¿Cómo nos comunicamos a través del discurso?</a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="span">Jul 26, 2024</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="checkmark-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="span">Disponible</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Existen técnicas para transmitir mensajes correctamente.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="./assets/images/3307.jpg" width="370" height="370" loading="lazy"
+                                        alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Yasser Pushaina Rojas</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Aplicación de Scrum a Proyectos de Software</a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="span">Jul 26, 2024</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="checkmark-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="span">Disponible</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Es una metodología ágil utilizada en la gestión de proyectos.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="./assets/images/pexels-hiteshchoudhary-7775641.jpg" width="370"
+                                        height="370" loading="lazy" alt="Become A Better Blogger: Content Planning"
+                                        class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Deivis David Jiménez</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Estructura de control: uso del bucle While</a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                            <span class="span">Indefinido</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+                                            <!-- <span class="span">No disponible</span> -->
+                                            <span class="span">Indefinido</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Se repetirá siempre que la condición sea verdadera.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <a href="#" class="btn has-before">
+                        <span class="span">Explorar más módulos</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- SECCION STATS -->
+
+            <section class="section stats" aria-label="stats">
+                <div class="container">
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="stats-card" style="--color: 170, 75%, 41%">
+                                <h3 class="card-title">100+</h3>
+
+                                <p class="card-text">Usuarios</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="stats-card" style="--color: 351, 83%, 61%">
+                                <h3 class="card-title">3</h3>
+
+                                <p class="card-text">Módulos</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="stats-card" style="--color: 260, 100%, 67%">
+                                <h3 class="card-title">0%</h3>
+
+                                <p class="card-text">Sastifacción</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="stats-card" style="--color: 42, 94%, 55%">
+                                <h3 class="card-title">30+</h3>
+
+                                <p class="card-text">Instructores</p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- PIE DE PAGINA -->
+
+    <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+        <div class="footer-top section">
+            <div class="container grid-list">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <!-- <img src="./assets/logos/logo.png" width="162" height="50" alt="EduWeb logo"> -->
+                        <!-- <img src="./assets/logos/logo.png" alt="EduWeb logo"> -->
+                        <h1 style="color: #5C69F5;">ADSOLABS</h1>
+                    </a>
+
+                    <p class="footer-brand-text">
+                        “Simplicity is the soul of efficiency.” <br>
+                        - Austin Freeman
+                    </p>
+
+                    <div class="wrapper">
+                        <span class="span">Call:</span>
+
+                        <a href="tel:+011234567890" class="footer-link">+57 324 401 9649</a>
+                    </div>
+
+                    <div class="wrapper">
+                        <span class="span">Apoyo:</span>
+
+                        <address class="address">Comunidad ADSO</address>
+                    </div>
+
+                    <div class="wrapper">
+                        <span class="span">Email:</span>
+
+                        <a href="mailto:losadabolivar@gmail.com" class="footer-link">losadabolivar@gmail.com</a>
+                    </div>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Secciones</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Nosotros</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Explorar</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Instructores</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Tablero</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Perfil</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contacto</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Rutas</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Frontend</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Backend</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Bases de datos</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Micro-Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Reportar Bug</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Obtén Acceso</p>
+
+                    <p class="footer-list-text">
+                        Únase y obtenga acceso a nuestra comunidad, así como reciba notificaciones sobre novedades.
+                    </p>
+
+                    <form action="" id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="email_address" name="email_address" placeholder="Ingrese su correo"
+                            required class="input-field">
+
+                        <button type="submit" class="btn has-before">
+                            <span class="span">Notificar</span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </form>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link" id="moon-icon">
+                                <ion-icon name="moon-outline"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://forms.office.com/r/21DsBu9L04" class="social-link" target="_blank">
+                                <ion-icon name="speedometer-outline"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://forms.office.com/r/D51Gcfdj53" class="social-link" target="_blank">
+                                <ion-icon name="bug-outline"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    © Copyright 2024 Todos los derechos reservados Comunidad por <a href="#"
+                        class="copyright-link">ADSO</a>
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- RETURN TO TOP -->
+    <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- JS LINK -->
+    <script src="main.js" defer></script>
+
+    <!-- IONICONS WEB COMPONENTS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+</body>
+
+</html>

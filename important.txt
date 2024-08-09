@@ -1,0 +1,11 @@
+// CREAR UN ARCHIVO CONTENEDOR
+[netlify.toml]
+
+// COMANDOS PARA CONSTRUIR Y DESPLEGAR
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
